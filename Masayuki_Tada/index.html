@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Masayuki Tada's Web</title>
+		<link rel="stylesheet" href="index/css/mycss.css" type="text/css">
+	</head>
+	<body>
+		<!-- ページ全体 -->
+		<div id="container">
+			<!-- ヘッダー部分 -->
+			<div id="header">
+				　"Masayuki Tada's Web"
+			</div>
+			<!-- サイドバー左 -->
+			<div id="sidel">
+				<ul>
+					<li><a href="index/top.html" target="_main_iframe">Top</a></li>
+					<li><a href="index/Profile.html" target="_main_iframe">Profile</a></li>
+					<li><a href="index/Gallery.html" target="_main_iframe">Gallery</a></li>
+					<li><a href="index/Hobby.html" target="_main_iframe">Hobby</a></li>
+				</ul>
+				<!--twitterウィジェット-->
+				<a class="twitter-timeline" href="https://twitter.com/nkc_tada" 
+				data-widget-id="291819396882636800">@nkc_tada からのツイート
+				</a>
+				<script>
+					!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],
+					p=/^http:/.test(d.location)?'http':'https';
+					if(!d.getElementById(id)){js=d.createElement(s);
+					js.id=id;
+					js.src=p+"://platform.twitter.com/widgets.js";
+					fjs.parentNode.insertBefore(js,fjs);
+					}}(document,"script","twitter-wjs");
+				</script>
+				<!--ここまで-->
+			</div>
+			<!-- コンテンツ部分 -->
+			<div>
+				<IFRAME src="index/top.html" name="_main_iframe" width="690" height="970" frameborder="0"></IFRAME>
+			</div>
+			<!-- フッター -->
+			<div id="footer">
+				Copyright (C) <script type="text/javascript">document.write(new Date().getFullYear())</script> MasayukiTada's Web. All Rights Reserved
+			</div>
+		</div>
+	</body>
+</html>

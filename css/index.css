@@ -1,0 +1,52 @@
+﻿/*--------------------------------------
+　トップページCSS
+---------------------------------------*/
+#bg_main_image{
+	width: 700px;
+	height: 300px;
+	background:url(../img/top/bg_main_image.gif) no-repeat;
+	position: relative;
+	margin: 0 0 20px 0;
+}
+#main_image{
+	width: 680px;
+	height: 280px;
+	padding: 5px;
+	background: url(../img/top/main_image.jpg) no-repeat;
+	position: absolute;
+	top: 5px;
+	left: 5px;
+}
+#main_image p{
+	line-height: 160%;
+}
+#top div#info{
+	background-color:#000000;
+	}
+#top div#info h2{
+	margin:0;
+	text-indent:0;
+	background:none;
+	}
+#top div#info div#info_inner{
+	color:#ffffff;
+	background-color:#000000;
+	margin:0 1px 0 1px;
+	overflow:auto;
+	height:200px;
+	}
+#top div#info div#info_inner h3{
+	border-width:0;
+	margin:5px 5px 0 5px;
+	text-indent:0;
+	background:none;
+	font-size:100%;
+	color:#009900;
+	font-weight:normal;
+	height:auto;
+	line-height:1.0em;
+}
+#top div#info div#info_inner p{
+	line-height:150%;
+	margin:0 5px 12px 5px;
+}
